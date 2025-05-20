@@ -1,1 +1,3 @@
-# Barrel-shifter
+# 8-Bit Barrel Shifter in Verilog
+
+This project is a Verilog-based implementation of an 8-bit barrel shifter that performs right shift operations based on a 3-bit control input. The design uses structural modeling and is built using a chain of 2:1 multiplexers defined in a separate mux2X1 module. The shifter can shift input data by 0 to 7 positions efficiently in a single clock cycle. The repository includes the main barrel_shifter.v module, the mux2X1.v multiplexer definition, and a barrel_shifter_tb.v testbench used for verification. The design was simulated using Icarus Verilog, and the output waveforms were analyzed using GTKWave. This setup provides a simple and effective way to understand and demonstrate barrel shifting logic in digital systems.
